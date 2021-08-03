@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<title>school website</title>
+	<style >
+		body{
+			background: lightgrey;
+		}
+		#m{
+			width: 1420px;
+			height:2540px;
+			margin: auto;
+			background-color: lightblue;
+			border: 20px solid white;
+			padding: 20px 20px 20px 20px;
+		}
+		#a{
+			height: 400px;
+			width: 400px;
+			background-image: url(logo.jpg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			float: left;
+		}
+		#b{ 
+			height: 400px;
+			width: 1000px;
+			background-image: url(front.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			float: right;
+			}
+		#c{
+			margin: auto;
+			margin-top: 15px;
+			background-color: white;
+			color: red;
+			height: 40px;
+			font-size: 30px;
+			padding:  5px 5px 5px 5px;
+		}
+		#d{
+			width: 800px;
+			height: 533px;
+			animation-name: try;
+			animation-duration: 8s;
+			animation-iteration-count: infinite;
+			position: absolute;
+			margin-top: 15px; 
+			margin-left: 15px;
+		}
+		@keyframes try{
+			0%{
+				
+				background-image: url("1.jpg");
+				background-size: 100% 100%;
+			}
+			33%{
+				background-image: url("main.jpg");
+				background-size: 100% 100%;
+
+			}
+			66%{
+				background-image: url("main2.jpg");
+				background-size: 100% 100%;
+			}
+			100%{
+				background-image: url("2.jpg");
+				background-size: 100% 100%;
+				
+		}
+	}
+		table{
+			background-color: lightpink;
+			margin: auto;
+			margin-top: 420px;
+			height: 20px;
+			font-size: 28px;
+			font-family: rockwell;
+			font-weight: lighter;
+			padding: 10px 10px 10px 10px;
+
+		}
+		th{
+            height: 15px;
+            border-right: 2px solid black;
+            border-spacing: 10px;
+            padding-right: 20px;
+            padding-left: 20px;
+            background-color: #04AA6D;
+            color: white;
+		}
+
+		tr{
+			position: relative;
+            display: inline-block;
+		}
+		.content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .content a{
+            color: black;
+            padding-right: 20px;
+            padding-left: 20px;
+            text-decoration: none;
+            display: block;
+            font-size: 25px;
+        }
+        .content a:hover{
+        	background-color: #ddd;
+        }
+		th:hover .content{display: block;
+		background-color: #3e8e41;}
+		th:hover {
+			background-color: black;
+			color: red;
+		}
+		#e{
+			width: 580px;
+			height: 533px;
+			float: right;
+			font-size: 35px;
+		}
+		h1{
+			font-size: 60px;
+			font-weight: bold;
+		}
+		#f{
+			width: 580px;
+			height: 533px;
+			float: left;
+			font-size: 30px;
+			margin-top: 533px;
+		}
+		h2{
+			font-size: 60px;
+			font-weight: bold;
+		}
+		#g{
+			width: 800px;
+			height: 533px;
+			margin-top: 700px;
+			margin-left: 610px;
+			background-image: url(pri.jpg);
+			position: absolute;
+			background-size: 100% 100%;
+		}
+		#h{
+			height: 400px;
+			width: 1420px;
+			background-color: red;
+			color: white;
+			font-size:40px
+		}
+	</style>
+</head>
+<body>
+	<div id="m">
+	  <div id="a"></div>
+      <div id="b"></div>
+	  	<table  >
+	  		<tr>
+	  			<th > <a href="project1.html">home</b></th>
+	  			<th > about us 
+	  				<div class="content">
+	  					<a href="#">about school</a>
+	  					<a href="#">principal message</a>
+	  					<a href="#">our mission</a>
+	  					<a href="#">school statistics</a>
+	  			    </div>
+	  			</th>
+	  			<th> admission 
+	  				<div class="content">
+	  					<a href="admissionform.php">admission form</a>
+	  					<a href="#">online fee</a>
+	  					<a href="#">fee structure</a>
+	  			    </div>
+	  			</th>
+	  			<th> adminstrative department 
+	  				<div class="content">
+	  					<a href="login.php">adminstration login</a>
+	  			    </div>
+	  			</th>
+	  			<th> facilities 
+	  				<div class="content">
+	  					<a href="#">school campus</a>
+	  					<a href="#">transport</a>
+	  					<a href="#">library</a>
+	  					<a href="#">smart class</a>
+	  					<a href="#">computer lab</a>
+	  			    </div>
+	  			</th>
+	  			<th> ebooks 
+	  				<div class="content">
+	  					<a href="#">IX vocational emp skills</a>
+	  			    </div>
+	  			</th>
+	  			<th> help desk 
+	  				<div class="content">
+	  					<a href="#">PTM</a>
+	  					<a href="#">Contact us</a>
+	  					<a href="#">feedback</a>
+	  			    </div>
+	  			</th>
+	  			<th> picture gallery
+	  				<div class="content">
+	  					<a href="#">farewell 2019</a>
+	  					<a href="#">cyber awareness</a>
+	  			    </div>
+	  			</th>
+	  		</tr>
+	  	</table>
+	  <div id="c"><marquee behavior="scroll" direction="left">NEWS: ADMISSION WILL BE OPEN ON 2ND JULY </marquee></div>
+      <div id="d"></div>
+      <div id="e">
+      	<h1>
+      		VISION
+      	</h1>
+      	<p>
+      		The vision of Nalanda International School is to be of WORLD CLASS in school learning and innovation driven by social sensitivity and latest teaching methodology. Therefore, with the help of experts, we will be among one of the best schools in qualitative education and inputs for personality development to suit ever-changing needs of Industry and society.
+
+      	</p>
+      </div>
+      <div id="f">
+      	<h2>PRINCIPAL MESSAGE</h2>
+      	At Nalanda International School, we are committed to making learning an enjoyable, motivating and inspiring experience with the right blend of academics, co-curricular and sports activities. We provide an atmosphere which is conducive to today’s contemporary world and help build ‘global honchos’. Our efforts are supported by a team of highly competent, dedicated and efficient staff, who facilitate students to learn research, probe and explore. The ultra-modern infrastructure with facilities like well-equipped laboratories, Maths lab, English Lab, swimming pool (big and small), dedicated montessori (indoor) play ground, sprawling sports ground, skating rink, boxing arena, tennis court, gymnastics hall, shooting range and a spacious auditorium along with serene ambience provides the right environment for the multi- faceted growth of our children.
+      </div>
+        <div id="g"></div>
+        <hr style="border-top: 8px solid darkred;margin-top:1500px ;border-radius: 5px">
+        <div id="h">
+        		<p style="text-align: left;">CONTACT US</p>
+        			<ul>
+        				  <li> Address :
+                              Nalanda International School
+                              Sevasi-Mahapura Road,
+                              Vadodara- 391 101.
+                          </li>
+                          <li>Email : info@nalandaschool.org</li>
+                          <li>
+                          	<a href="https://www.google.co.in/maps/place/Nalanda+International+School+Vadodara/@22.3129538,73.1042591,15z/data=!4m5!3m4!1s0x0:0xb66c9fef68c1e3f5!8m2!3d22.313192!4d73.1042162">GOOGLE MAPS</a>
+                          </li>
+                          <li>Phone : +91 265-2350008 , +91 7874661212</li>
+                          <li>Call : +91 7433973002</li>
+        			</ul>
+        	</div>
+	</div>
+</body>
+</html>
